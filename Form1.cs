@@ -16,5 +16,23 @@ namespace KutuphaneOtomasyonFinalProjem
         {
             InitializeComponent();
         }
+        KutuphaneOtomasyonEntities db = new KutuphaneOtomasyonEntities();
+        private void PersonelGirisbtn_Click(object sender, EventArgs e)
+        {
+            string gelenAd = adGiristxt.Text;
+            string gelenSifre = sifreGiristxt.Text;
+
+            // linq sorgusu yapıyorum
+            var personel = db.Personeller.Where(x=> x.personel_ad.Equals(gelenAd)&& x.personel_sifre.Equals(gelenSifre)).FirstOrDefault();
+
+            if (personel == null) 
+            {
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı");
+            }
+            else
+             MessageBox.Show("Başarılı");
+           
+
+        }
     }
 }
