@@ -57,5 +57,12 @@ namespace KutuphaneOtomasyonFinalProjem
             kSil.MdiParent = this;
             kSil.Show();
         }
+
+        private void guncelleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            KullaniciGuncelleForm kGuncel = new KullaniciGuncelleForm();
+            kGuncel.MdiParent = this;
+            kGuncel.Show();
+        }
     }
 }
