@@ -30,7 +30,14 @@ namespace KutuphaneOtomasyonFinalProjem
                 MessageBox.Show("Kullanıcı adı veya şifre hatalı");
             }
             else
-             MessageBox.Show("Başarılı");
+            {
+            MessageBox.Show("Başarılı");
+            IslemPaneli panel = new IslemPaneli();  
+            panel.Show();
+            this.Hide();
+            }
+             
+            
            
 
         }

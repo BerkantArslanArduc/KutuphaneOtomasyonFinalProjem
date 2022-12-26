@@ -26,5 +26,6 @@ namespace KutuphaneOtomasyonFinalProjem
         }
     
         public virtual DbSet<Personeller> Personeller { get; set; }
+        public virtual DbSet<Kullanicilar> Kullanicilar { get; set; }
     }
 }
