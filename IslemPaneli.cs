@@ -43,5 +43,12 @@ namespace KutuphaneOtomasyonFinalProjem
             klisteForm.MdiParent= this;
             klisteForm.Show();
         }
+
+        private void ekleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            KullaniciEkleForm ekleForm = new KullaniciEkleForm();
+            ekleForm.MdiParent = this;
+            ekleForm.Show();
+        }
     }
 }
