@@ -67,10 +67,16 @@
     <Compile Include="IslemPaneli.Designer.cs">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
     </Compile>
-    <Compile Include="KullaniciEkleForm.cs">
+    <Compile Include="KullaniciSilForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KullaniciEkleForm.Designer.cs">
+    <Compile Include="KullaniciSilForm.Designer.cs">
+      <DependentUpon>KullaniciSilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici\KullaniciEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici\KullaniciEkleForm.Designer.cs">
       <DependentUpon>KullaniciEkleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Kullanicilar.cs">
@@ -108,7 +114,10 @@
     <EmbeddedResource Include="IslemPaneli.resx">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KullaniciEkleForm.resx">
+    <EmbeddedResource Include="KullaniciSilForm.resx">
+      <DependentUpon>KullaniciSilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici\KullaniciEkleForm.resx">
       <DependentUpon>KullaniciEkleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kullanici\KullaniciListeForm.resx">
