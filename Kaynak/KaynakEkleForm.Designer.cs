@@ -56,7 +56,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 56);
+            this.label1.Location = new System.Drawing.Point(78, 105);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
             this.label1.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(74, 99);
+            this.label2.Location = new System.Drawing.Point(64, 148);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(67, 142);
+            this.label3.Location = new System.Drawing.Point(57, 191);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 3;
@@ -83,7 +83,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 185);
+            this.label4.Location = new System.Drawing.Point(34, 234);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 13);
             this.label4.TabIndex = 4;
@@ -92,7 +92,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(44, 228);
+            this.label5.Location = new System.Drawing.Point(34, 277);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 13);
             this.label5.TabIndex = 5;
@@ -100,42 +100,42 @@ namespace KutuphaneOtomasyonFinalProjem
             // 
             // adKaynaktxt
             // 
-            this.adKaynaktxt.Location = new System.Drawing.Point(122, 56);
+            this.adKaynaktxt.Location = new System.Drawing.Point(112, 105);
             this.adKaynaktxt.Name = "adKaynaktxt";
             this.adKaynaktxt.Size = new System.Drawing.Size(147, 20);
             this.adKaynaktxt.TabIndex = 6;
             // 
             // yazarKaynaktxt
             // 
-            this.yazarKaynaktxt.Location = new System.Drawing.Point(122, 99);
+            this.yazarKaynaktxt.Location = new System.Drawing.Point(112, 148);
             this.yazarKaynaktxt.Name = "yazarKaynaktxt";
             this.yazarKaynaktxt.Size = new System.Drawing.Size(147, 20);
             this.yazarKaynaktxt.TabIndex = 7;
             // 
             // yayıncıKaynaktxt
             // 
-            this.yayıncıKaynaktxt.Location = new System.Drawing.Point(120, 142);
+            this.yayıncıKaynaktxt.Location = new System.Drawing.Point(110, 191);
             this.yayıncıKaynaktxt.Name = "yayıncıKaynaktxt";
             this.yayıncıKaynaktxt.Size = new System.Drawing.Size(147, 20);
             this.yayıncıKaynaktxt.TabIndex = 8;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(122, 185);
+            this.numericUpDown1.Location = new System.Drawing.Point(112, 234);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(147, 20);
             this.numericUpDown1.TabIndex = 10;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(122, 228);
+            this.dateTimePicker1.Location = new System.Drawing.Point(112, 277);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(147, 20);
             this.dateTimePicker1.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(122, 270);
+            this.button1.Location = new System.Drawing.Point(112, 319);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 44);
             this.button1.TabIndex = 12;

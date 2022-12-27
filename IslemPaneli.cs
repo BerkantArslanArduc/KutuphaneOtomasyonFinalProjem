@@ -102,5 +102,12 @@ namespace KutuphaneOtomasyonFinalProjem
             Ksil.MdiParent = this;
             Ksil.Show();
         }
+
+        private void guncelleKaynakbtn_Click(object sender, EventArgs e)
+        {
+            KaynakGüncelleForm kGuncel = new KaynakGüncelleForm();
+            kGuncel.MdiParent = this;
+            kGuncel.Show();
+        }
     }
 }

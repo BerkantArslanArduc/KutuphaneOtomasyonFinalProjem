@@ -184,6 +184,7 @@
             this.guncelleKaynakbtn.Text = "Güncelle";
             this.guncelleKaynakbtn.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.guncelleKaynakbtn.UseVisualStyleBackColor = false;
+            this.guncelleKaynakbtn.Click += new System.EventHandler(this.guncelleKaynakbtn_Click);
             // 
             // silKaynakbtn
             // 
