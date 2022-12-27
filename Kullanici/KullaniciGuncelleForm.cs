@@ -68,5 +68,10 @@ namespace KutuphaneOtomasyonFinalProjem
             db.SaveChanges();
             Listele();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

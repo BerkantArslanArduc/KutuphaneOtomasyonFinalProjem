@@ -36,10 +36,12 @@ namespace KutuphaneOtomasyonFinalProjem
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(110)))), ((int)(((byte)(113)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 129);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 170);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1051, 526);
+            this.dataGridView1.Size = new System.Drawing.Size(1171, 580);
             this.dataGridView1.TabIndex = 3;
             // 
             // KaynakSilbtn
@@ -47,7 +49,7 @@ namespace KutuphaneOtomasyonFinalProjem
             this.KaynakSilbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.KaynakSilbtn.FlatAppearance.BorderSize = 0;
             this.KaynakSilbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.KaynakSilbtn.Location = new System.Drawing.Point(31, 21);
+            this.KaynakSilbtn.Location = new System.Drawing.Point(12, 40);
             this.KaynakSilbtn.Name = "KaynakSilbtn";
             this.KaynakSilbtn.Size = new System.Drawing.Size(248, 86);
             this.KaynakSilbtn.TabIndex = 4;
@@ -59,11 +61,13 @@ namespace KutuphaneOtomasyonFinalProjem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1080, 667);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(110)))), ((int)(((byte)(113)))));
+            this.ClientSize = new System.Drawing.Size(1171, 750);
             this.Controls.Add(this.KaynakSilbtn);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KaynakSilForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KaynakSilForm";
             this.Load += new System.EventHandler(this.KaynakSilForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

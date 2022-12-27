@@ -45,13 +45,15 @@
             this.radioK = new System.Windows.Forms.RadioButton();
             this.kaydetbtn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 70);
+            this.label1.Location = new System.Drawing.Point(38, 108);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(26, 13);
             this.label1.TabIndex = 0;
@@ -60,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 115);
+            this.label2.Location = new System.Drawing.Point(38, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 1;
@@ -69,7 +71,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 193);
+            this.label3.Location = new System.Drawing.Point(38, 231);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 2;
@@ -78,7 +80,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(46, 238);
+            this.label4.Location = new System.Drawing.Point(38, 276);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 3;
@@ -87,7 +89,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(46, 283);
+            this.label5.Location = new System.Drawing.Point(38, 321);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 4;
@@ -96,7 +98,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(46, 321);
+            this.label6.Location = new System.Drawing.Point(38, 359);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 5;
@@ -104,42 +106,42 @@
             // 
             // kullaniciAdtxt
             // 
-            this.kullaniciAdtxt.Location = new System.Drawing.Point(95, 70);
+            this.kullaniciAdtxt.Location = new System.Drawing.Point(87, 108);
             this.kullaniciAdtxt.Name = "kullaniciAdtxt";
             this.kullaniciAdtxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciAdtxt.TabIndex = 6;
             // 
             // kullaniciSoyadtxt
             // 
-            this.kullaniciSoyadtxt.Location = new System.Drawing.Point(95, 115);
+            this.kullaniciSoyadtxt.Location = new System.Drawing.Point(87, 153);
             this.kullaniciSoyadtxt.Name = "kullaniciSoyadtxt";
             this.kullaniciSoyadtxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciSoyadtxt.TabIndex = 7;
             // 
             // kullaniciTCtxt
             // 
-            this.kullaniciTCtxt.Location = new System.Drawing.Point(95, 193);
+            this.kullaniciTCtxt.Location = new System.Drawing.Point(87, 231);
             this.kullaniciTCtxt.Name = "kullaniciTCtxt";
             this.kullaniciTCtxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciTCtxt.TabIndex = 8;
             // 
             // kullaniciTeltxt
             // 
-            this.kullaniciTeltxt.Location = new System.Drawing.Point(95, 238);
+            this.kullaniciTeltxt.Location = new System.Drawing.Point(87, 276);
             this.kullaniciTeltxt.Name = "kullaniciTeltxt";
             this.kullaniciTeltxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciTeltxt.TabIndex = 9;
             // 
             // kullaniciMailtxt
             // 
-            this.kullaniciMailtxt.Location = new System.Drawing.Point(95, 283);
+            this.kullaniciMailtxt.Location = new System.Drawing.Point(87, 321);
             this.kullaniciMailtxt.Name = "kullaniciMailtxt";
             this.kullaniciMailtxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciMailtxt.TabIndex = 10;
             // 
             // kullaniciCezatxt
             // 
-            this.kullaniciCezatxt.Location = new System.Drawing.Point(95, 321);
+            this.kullaniciCezatxt.Location = new System.Drawing.Point(87, 359);
             this.kullaniciCezatxt.Name = "kullaniciCezatxt";
             this.kullaniciCezatxt.Size = new System.Drawing.Size(145, 20);
             this.kullaniciCezatxt.TabIndex = 11;
@@ -147,7 +149,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(40, 157);
+            this.label7.Location = new System.Drawing.Point(32, 195);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(43, 13);
             this.label7.TabIndex = 12;
@@ -156,7 +158,7 @@
             // radioE
             // 
             this.radioE.AutoSize = true;
-            this.radioE.Location = new System.Drawing.Point(104, 152);
+            this.radioE.Location = new System.Drawing.Point(96, 190);
             this.radioE.Name = "radioE";
             this.radioE.Size = new System.Drawing.Size(53, 17);
             this.radioE.TabIndex = 13;
@@ -167,7 +169,7 @@
             // radioK
             // 
             this.radioK.AutoSize = true;
-            this.radioK.Location = new System.Drawing.Point(179, 152);
+            this.radioK.Location = new System.Drawing.Point(171, 190);
             this.radioK.Name = "radioK";
             this.radioK.Size = new System.Drawing.Size(52, 17);
             this.radioK.TabIndex = 14;
@@ -177,51 +179,68 @@
             // 
             // kaydetbtn
             // 
-            this.kaydetbtn.Location = new System.Drawing.Point(49, 369);
+            this.kaydetbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(68)))), ((int)(((byte)(102)))));
+            this.kaydetbtn.FlatAppearance.BorderSize = 0;
+            this.kaydetbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kaydetbtn.Location = new System.Drawing.Point(41, 407);
             this.kaydetbtn.Name = "kaydetbtn";
             this.kaydetbtn.Size = new System.Drawing.Size(191, 43);
             this.kaydetbtn.TabIndex = 15;
             this.kaydetbtn.Text = "Kaydet";
-            this.kaydetbtn.UseVisualStyleBackColor = true;
+            this.kaydetbtn.UseVisualStyleBackColor = false;
             this.kaydetbtn.Click += new System.EventHandler(this.kaydetbtn_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(282, 27);
+            this.dataGridView1.Location = new System.Drawing.Point(266, 25);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(707, 513);
+            this.dataGridView1.Size = new System.Drawing.Size(904, 725);
             this.dataGridView1.TabIndex = 16;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(114)))), ((int)(((byte)(131)))));
+            this.panel1.Controls.Add(this.kullaniciCezatxt);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.kaydetbtn);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.radioK);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.radioE);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.kullaniciMailtxt);
+            this.panel1.Controls.Add(this.kullaniciAdtxt);
+            this.panel1.Controls.Add(this.kullaniciTeltxt);
+            this.panel1.Controls.Add(this.kullaniciSoyadtxt);
+            this.panel1.Controls.Add(this.kullaniciTCtxt);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(270, 750);
+            this.panel1.TabIndex = 17;
             // 
             // KullaniciEkleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1001, 566);
+            this.ClientSize = new System.Drawing.Size(1171, 750);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.kaydetbtn);
-            this.Controls.Add(this.radioK);
-            this.Controls.Add(this.radioE);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.kullaniciCezatxt);
-            this.Controls.Add(this.kullaniciMailtxt);
-            this.Controls.Add(this.kullaniciTeltxt);
-            this.Controls.Add(this.kullaniciTCtxt);
-            this.Controls.Add(this.kullaniciSoyadtxt);
-            this.Controls.Add(this.kullaniciAdtxt);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KullaniciEkleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KullaniciEkleForm";
             this.Load += new System.EventHandler(this.KullaniciEkleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -244,5 +263,6 @@
         private System.Windows.Forms.RadioButton radioK;
         private System.Windows.Forms.Button kaydetbtn;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
