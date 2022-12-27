@@ -31,5 +31,10 @@ namespace KutuphaneOtomasyonFinalProjem
             var kliste = db.Kaynaklar.ToList();
             dataGridView1.DataSource = kliste.ToList();
         }
+
+        private void KaynakEkleForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

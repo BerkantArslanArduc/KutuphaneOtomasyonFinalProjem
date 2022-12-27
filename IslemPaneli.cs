@@ -95,5 +95,12 @@ namespace KutuphaneOtomasyonFinalProjem
             kEkle.MdiParent = this;
             kEkle.Show();
         }
+
+        private void silKaynakbtn_Click(object sender, EventArgs e)
+        {
+            KaynakSilForm Ksil = new KaynakSilForm();
+            Ksil.MdiParent = this;
+            Ksil.Show();
+        }
     }
 }

@@ -200,6 +200,7 @@
             this.silKaynakbtn.Text = "                                  Sil";
             this.silKaynakbtn.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.silKaynakbtn.UseVisualStyleBackColor = false;
+            this.silKaynakbtn.Click += new System.EventHandler(this.silKaynakbtn_Click);
             // 
             // IslemPaneli
             // 
