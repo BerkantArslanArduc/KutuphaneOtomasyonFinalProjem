@@ -67,6 +67,12 @@
     <Compile Include="IslemPaneli.Designer.cs">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
     </Compile>
+    <Compile Include="KaynakListeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KaynakListeForm.Designer.cs">
+      <DependentUpon>KaynakListeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="KullaniciGuncelleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IslemPaneli.resx">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KaynakListeForm.resx">
+      <DependentUpon>KaynakListeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KullaniciGuncelleForm.resx">
       <DependentUpon>KullaniciGuncelleForm.cs</DependentUpon>
@@ -176,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Kaynak\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

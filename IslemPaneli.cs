@@ -19,10 +19,15 @@ namespace KutuphaneOtomasyonFinalProjem
 
         private void IslemPaneli_Load(object sender, EventArgs e)
         {
+            // Kullanıcı butonlarının girişte kapalı olduğunu belirtir.
             ekleKullanicibtn.Visible = false;
             guncelleKullanicibtn.Visible = false;
             silKullanicibtn.Visible = false;
 
+            // Kaynak butonlarının girişte kapalı olduğunu belirtir.
+            ekleKaynakbtn.Visible = false;
+            guncelleKaynakbtn.Visible = false;
+            silKaynakbtn.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,6 +68,25 @@ namespace KutuphaneOtomasyonFinalProjem
             KullaniciGuncelleForm kGuncel = new KullaniciGuncelleForm();
             kGuncel.MdiParent = this;
             kGuncel.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(ekleKaynakbtn.Visible == false)
+            {
+                ekleKaynakbtn.Visible = true;
+                guncelleKaynakbtn.Visible = true;
+                silKaynakbtn.Visible = true;
+            }
+            else
+            {
+                ekleKaynakbtn.Visible = false;
+                guncelleKaynakbtn.Visible = false;
+                silKaynakbtn.Visible = false;
+            }
+            KaynakListeForm kliste = new KaynakListeForm();
+            kliste.MdiParent = this;
+            kliste.Show();
         }
     }
 }
