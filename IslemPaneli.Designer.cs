@@ -45,7 +45,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.Aqua;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(59)))), ((int)(((byte)(101)))));
             this.panel1.Controls.Add(this.silKaynakbtn);
             this.panel1.Controls.Add(this.guncelleKaynakbtn);
             this.panel1.Controls.Add(this.ekleKaynakbtn);
@@ -57,7 +57,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(172, 762);
+            this.panel1.Size = new System.Drawing.Size(172, 778);
             this.panel1.TabIndex = 0;
             // 
             // silKullanicibtn
@@ -128,7 +128,7 @@
             // 
             // kullaniciBilgiPanel
             // 
-            this.kullaniciBilgiPanel.BackColor = System.Drawing.Color.Aqua;
+            this.kullaniciBilgiPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(59)))), ((int)(((byte)(101)))));
             this.kullaniciBilgiPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.kullaniciBilgiPanel.Location = new System.Drawing.Point(172, 0);
             this.kullaniciBilgiPanel.Name = "kullaniciBilgiPanel";
@@ -167,6 +167,7 @@
             this.ekleKaynakbtn.Text = "                                  Ekle";
             this.ekleKaynakbtn.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.ekleKaynakbtn.UseVisualStyleBackColor = false;
+            this.ekleKaynakbtn.Click += new System.EventHandler(this.ekleKaynakbtn_Click);
             // 
             // guncelleKaynakbtn
             // 
@@ -205,7 +206,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(144)))), ((int)(((byte)(138)))));
-            this.ClientSize = new System.Drawing.Size(1282, 762);
+            this.ClientSize = new System.Drawing.Size(1282, 778);
             this.Controls.Add(this.kullaniciBilgiPanel);
             this.Controls.Add(this.panel1);
             this.IsMdiContainer = true;

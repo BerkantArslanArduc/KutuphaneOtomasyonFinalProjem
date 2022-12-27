@@ -88,5 +88,12 @@ namespace KutuphaneOtomasyonFinalProjem
             kliste.MdiParent = this;
             kliste.Show();
         }
+
+        private void ekleKaynakbtn_Click(object sender, EventArgs e)
+        {
+            KaynakEkleForm kEkle = new KaynakEkleForm();
+            kEkle.MdiParent = this;
+            kEkle.Show();
+        }
     }
 }

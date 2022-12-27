@@ -16,5 +16,14 @@ namespace KutuphaneOtomasyonFinalProjem
         {
             InitializeComponent();
         }
+
+
+        KutuphaneOtomasyonEntities db = new KutuphaneOtomasyonEntities();
+
+        private void KaynakListeForm_Load(object sender, EventArgs e)
+        {
+            var kaynaklar = db.Kaynaklar.ToList();
+            dataGridView1.DataSource = kaynaklar.ToList();
+        }
     }
 }
