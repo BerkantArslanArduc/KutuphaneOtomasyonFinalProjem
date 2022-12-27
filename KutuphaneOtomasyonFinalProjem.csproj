@@ -67,16 +67,16 @@
     <Compile Include="IslemPaneli.Designer.cs">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
     </Compile>
-    <Compile Include="KaynakGüncelleForm.cs">
+    <Compile Include="Kaynak\KaynakGüncelleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KaynakGüncelleForm.Designer.cs">
+    <Compile Include="Kaynak\KaynakGüncelleForm.Designer.cs">
       <DependentUpon>KaynakGüncelleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="KaynakSilForm.cs">
+    <Compile Include="Kaynak\KaynakSilForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KaynakSilForm.Designer.cs">
+    <Compile Include="Kaynak\KaynakSilForm.Designer.cs">
       <DependentUpon>KaynakSilForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Kaynak\KaynakEkleForm.cs">
@@ -147,10 +147,10 @@
     <EmbeddedResource Include="IslemPaneli.resx">
       <DependentUpon>IslemPaneli.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KaynakGüncelleForm.resx">
+    <EmbeddedResource Include="Kaynak\KaynakGüncelleForm.resx">
       <DependentUpon>KaynakGüncelleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KaynakSilForm.resx">
+    <EmbeddedResource Include="Kaynak\KaynakSilForm.resx">
       <DependentUpon>KaynakSilForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kaynak\KaynakEkleForm.resx">
