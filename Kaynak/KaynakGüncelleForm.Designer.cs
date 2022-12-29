@@ -53,13 +53,14 @@ namespace KutuphaneOtomasyonFinalProjem
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(270, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(899, 750);
+            this.dataGridView1.Size = new System.Drawing.Size(901, 750);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseClick);
             // 
             // KaynakGuncellebtn
             // 
             this.KaynakGuncellebtn.BackColor = System.Drawing.Color.Gray;
+            this.KaynakGuncellebtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.KaynakGuncellebtn.FlatAppearance.BorderSize = 0;
             this.KaynakGuncellebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.KaynakGuncellebtn.Location = new System.Drawing.Point(87, 348);
@@ -172,6 +173,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // 
             // KaynakGüncelleForm
             // 
+            this.AcceptButton = this.KaynakGuncellebtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(110)))), ((int)(((byte)(113)))));

@@ -53,7 +53,7 @@ namespace KutuphaneOtomasyonFinalProjem
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(267, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(907, 750);
+            this.dataGridView1.Size = new System.Drawing.Size(904, 750);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -139,6 +139,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gray;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(87, 346);
@@ -171,6 +172,7 @@ namespace KutuphaneOtomasyonFinalProjem
             // 
             // KaynakEkleForm
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));

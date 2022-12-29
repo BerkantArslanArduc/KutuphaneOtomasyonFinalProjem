@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace KutuphaneOtomasyonFinalProjem
 {
     public partial class KaynakEkleForm : Form
     {
+        //bu kod sql connection kullansaydım bağlantı için yazmam gereken kod.
+        //static String baglanti = ConfigurationManager.ConnectionStrings["KutuphaneOtomasyonEntities"].ConnectionString;
         public KaynakEkleForm()
         {
             InitializeComponent();
