@@ -52,7 +52,7 @@ namespace KutuphaneOtomasyonFinalProjem
                  guncelleKullanicibtn.Visible = false;
                  silKullanicibtn.Visible = false;
 
-                 klisteForm.Hide();
+                 klisteForm.Close();
             }
             
          

@@ -29,7 +29,7 @@ namespace KutuphaneOtomasyonFinalProjem
             adKaynaktxt.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             yazarKaynaktxt.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
             yayıncıKaynaktxt.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            numericUpDown1.Value =Convert.ToDecimal(dataGridView1.CurrentRow.Cells[4].Value);
+            numericUpDown1.Value = Convert.ToDecimal(dataGridView1.CurrentRow.Cells[4].Value);
             dateTimePicker1.Value =Convert.ToDateTime(dataGridView1.CurrentRow.Cells[5].Value);
 
         }
